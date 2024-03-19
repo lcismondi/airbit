@@ -7,6 +7,8 @@ se ejecuta en el microcontrolador ESP8266 y sigue un ciclo de funcionamiento bá
 * Conexión a la base de datos: Se establece una conexión Wi-Fi con la base de datos para informar y almacenar las lecturas actuales.
 * Ciclo de espera: Espera un período de tiempo antes de repetir el ciclo de funcionamiento para conservar energía y prolongar la vida útil del dispositivo.
 
+![Firmware](./Airbit_firmware.png)
+
 # Características del Firmware
 * Adquisición de datos: El firmware se encarga de la lectura de los sensores BMP085, BMP180 y MQ135 para obtener mediciones precisas de presión y calidad del aire.
 * Procesamiento de datos: Los datos recopilados por los sensores son procesados para calcular la calidad del aire y otros parámetros ambientales relevantes.

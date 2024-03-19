@@ -3,6 +3,8 @@ Seamos realistas, los dispositivos que miden la calidad de aire se han convertid
 
 Equipado con sensores de alta calidad, airbit es el compañero ideal para identificar el ambiente de trabajo en el que se encuentra funcionando la heladera y así complementar su estimación. Es un dispositivo muy sencillo con feedback intuitivo, que además permite saber cuándo es el momento de abrir una ventana y tomar un poco de aire fresco.
 
+![Render](./imagenes/airbitrender.png)
+
 ## Mucho más que un simple monitor de calidad del aire
 Sensor de medioambiente (Temperatura, presión, VOC).
 Botones de interacción
@@ -27,6 +29,8 @@ Luces de estado
 
 ## Lectura de variables en tiempo real
 Para quienes tienen la necesidad de sumergirse en el mundo de los datos airbit también lo tiene. Con solo conectarlo a una red wifi podrán ver los números y estadísticas.
+
+![Temepratura y presión](./imagenes/Temperaturaypresion.png)
 
 ## Hackeable 100%
 El corazón de airbit corre con un ESP8266 en sus versiones Node MCU v2 o v3. Es un poderoso microcontrolador que le da vida al monitor de ambiente y la mejor parte es que cualquier con conocimientos básicos se puede conectar.

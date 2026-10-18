@@ -11,6 +11,7 @@
 - Diagnostico serie con memoria, causas de reinicio, huella RTC y captura automatica.
 - Version y MAC principal/AP en `/api/estado`; version y MAC WiFi visibles al pie de la interfaz.
 - Compilacion publica sin credenciales ni destino privado de telemetria incrustados.
+- Presentacion del proyecto y README de firmware, hardware y gabinete ampliados, con galeria del portal e indice de imagenes.
 
 Validacion: 400 respuestas HTTP correctas en unos nueve minutos de trafico sostenido sin reinicios ni descenso continuo de memoria, mas descarga lenta y reentrada al AP. Se observaron cortes de radio y un error de red en la comprobacion final del arnes; posteriormente AP/DNS/HTTP respondieron. Sigue pendiente confirmar estabilidad prolongada y aceptacion visual de las olas.
 

@@ -1,3 +1,11 @@
+# Firmware actual
+
+El proyecto mantenido es [Airbit v0.2.0 en PlatformIO](platformio/README.md). Las instrucciones de compilacion, configuracion del AP y diagnostico estan en esa carpeta.
+
+`Airbit.ino` y la descripcion siguiente documentan el firmware Arduino historico. Para usar el equipo actual, configurar WiFi desde el portal.
+
+---
+
 # Funcionamiento del Firmware
 se ejecuta en el microcontrolador ESP8266 y sigue un ciclo de funcionamiento básico:
 * Inicialización: El firmware inicializa los componentes necesarios, como los sensores y la base lumínica.

@@ -1,4 +1,15 @@
 # Calidad de aire interior
+
+## Firmware actual: v0.2.0
+
+El firmware ESP8266 se desarrolla con [PlatformIO](firmware/platformio/). Incluye portal cautivo, configuracion WiFi, calibracion del MQ135, iluminacion y version/MAC visibles en la interfaz.
+
+- [Instalacion, conexiones y uso](firmware/platformio/README.md)
+- [Cambios y validacion](firmware/platformio/CHANGELOG.md)
+- [Releases y binarios](https://github.com/lcismondi/airbit/releases)
+
+El proyecto Arduino de `firmware/Airbit.ino` queda como referencia historica. La escala del MQ135 es relativa a una referencia de aire limpio; no representa ppm ni un AQI oficial.
+
 Seamos realistas, los dispositivos que miden la calidad de aire se han convertido en estos días en un commodity para el hogar. Pero, ¿Si decimos que tenemos algo que no solo es práctico sino que ayuda a la energía del hogar? Si, no es más ni menos que un complemento de [Fmart | Heladera inteligente](https://github.com/lcismondi/HeladeraSmart).
 
 Equipado con sensores de alta calidad, airbit es el compañero ideal para identificar el ambiente de trabajo en el que se encuentra funcionando la heladera y así complementar su estimación. Es un dispositivo muy sencillo con feedback intuitivo, que además permite saber cuándo es el momento de abrir una ventana y tomar un poco de aire fresco.
